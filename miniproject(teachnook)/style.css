@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    padding: 3%;
+    color: #fff;
+    font-family: "Merriweather", serif;
+  }
+  header{
+    color:black;
+    background-image: linear-gradient(120deg,#ff4a1c,#ffffff,#55a630);
+  }
+  footer {
+    background-color:black;
+    color: #fff;
+  }
+  h5{
+    color:blue;
+  }
+
+  
+  .container {
+    display: grid;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #e7f6f2;
+  }
+  .container > div {
+    padding: 20px 0;
+  }
+  
+  div:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  @media (max-width: 1028px) {
+    div {
+      grid-column: 1 / span 2;
+      text-align: center;
+      padding-left: 7%;
+    }
+  }
+  
+  .audio {
+    background-image: linear-gradient(120deg,#ff4a1c,#ffffff,#55a630);
+    text-align: center;
+    padding: 2%;
+  }
+  
+  footer {
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  footer > h1 {
+    padding: 3%;
+  }
+  footer > p {
+    padding-bottom: 1%;
+  }
